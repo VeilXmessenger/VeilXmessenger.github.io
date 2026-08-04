@@ -1,0 +1,23 @@
+{
+  "name": "VeilX - Create. Talk. Disappear.",
+  "short_name": "VeilX",
+  "description": "A private temporary communication space where conversations vanish when time runs out.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#080808",
+  "theme_color": "#080808",
+  "icons": [
+    {
+      "src": "/icons/veil-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/veil-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
