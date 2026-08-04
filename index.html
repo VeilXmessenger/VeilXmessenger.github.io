@@ -37,8 +37,15 @@
         }
       })();
     </script>
-    <script type="module" crossorigin src="/assets/index-Cgxi73qI.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-BuAqRus7.css">
+    <script>
+      if ("serviceWorker" in navigator) {
+        window.addEventListener("load", function () {
+          navigator.serviceWorker.register("/sw.js").catch(function () {});
+        });
+      }
+    </script>
+    <script type="module" crossorigin src="/assets/index-D9H0JJC8.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-nk1xiFtC.css">
   </head>
   <body>
     <div id="root"></div>
